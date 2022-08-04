@@ -1,0 +1,259 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    display : flex;
+    flex-direction : column;
+  }
+  
+  .entete
+  {
+    display : flex;
+    flex-direction : column;
+    background-image:url("images/desktop/image-header.jpg");
+    background-size :100%;
+    color : white;
+    background-position : bottom center;
+    background-color :#3dbeff;
+    background-repeat : no-repeat;
+    width :100%;
+    height : 800px;
+  }
+  .navigation
+  {
+   display : flex;
+    justify-content : space-between;
+  }
+  
+  .logo_entete
+  {
+    margin : 3em;
+  }
+  
+  .menu
+  {
+    display : flex;
+    list-style-type : none;
+    margin : 2em;
+  }
+  
+  li
+  {
+    padding : 1.5em;
+  }
+  
+  .contact
+  {
+    border-radius: 2em;
+    color: black;
+    background-color : white;
+    
+  }
+  
+  .titre
+  {
+    text-align:center;
+    font-size:1.5em;
+    margin: 2em;
+  }
+  
+  .fleche
+  {
+    margin:3em;
+  }
+  
+  .deux_element
+  {
+    display : flex;
+  }
+  
+  .texte
+  {
+    display : flex;
+    flex-direction : column;
+    justify-content :center;
+    flex : 1;
+  }
+  
+  .texte h2
+  {
+    font-size : 2em;
+  }
+  
+  #learn_oeuf
+  {
+    text-underline-offset : 3px;
+    text-decoration-color : #89888f;
+  }
+  
+  .details
+  {
+    padding-left : 120px;
+    padding-right : 120px;
+  }
+  
+  .details_paragraphe
+  {
+    padding-left : 120px;
+    padding-right : 120px;
+    color : #89888f;
+  }
+  
+  .photo
+  {
+    flex : 1;
+    background-size : 100%;
+    background-repeat : no-repeat;
+    background-position : center;
+    min-height : 40vw;
+  }
+  
+  #oeuf
+  {
+    background-image : url("images/desktop/image-transform.jpg");
+    background-color : #ffd600;
+  }
+  
+  #coupe
+  {
+    background-image : url("images/desktop/image-stand-out.jpg");
+    background-color : #fe7563;
+  }
+  
+  
+  .avec_arriere_plan
+  {
+    text-align : center;
+    flex : 1;
+    background-size : 100%;
+    background-repeat : no-repeat;
+    background-position : center;
+    min-height : 40vw;
+  }
+  
+  .avec_arriere_plan h2
+  {
+    margin-top : 12em;
+  }
+  
+  .avec_arriere_plan p
+  {
+    margin : 3.5em;
+  }
+  
+  #pomme
+  {
+    background-image : url("images/desktop/image-graphic-design.jpg");
+    color : #1d4f46;
+  }
+  
+  #orange
+  {
+    background-image : url("images/desktop/image-photography.jpg");
+    color : #154f65;
+  }
+  
+  .personne
+  {
+    display : flex;
+    flex-direction : column;
+    text-align : center;
+    width : 30%;
+    margin : 0.5em;
+    color : #737476; 
+  }
+  .team h3
+    {
+      color : #aeaeae;
+      margin : 4em;
+      margin-top : 9em;
+    }
+  .grade
+    {
+      font-size : 0.7em;
+      color : #aeaeae;
+    }
+  .personne p strong
+    {
+      color : black;
+    }
+  
+  .personne div img
+  {
+    border-radius : 3em;
+  }
+  
+  .team
+  {
+    display : flex;
+    flex-direction : column;
+    text-align : center;
+  }
+  
+  .personne img
+  {
+    width : 25%;
+  }
+  
+  .head_team
+    {
+      display : flex;
+      justify-content : center;
+    }
+  .album
+    {
+      display : flex;
+    }
+    .photo_album
+    {
+    flex : 1;
+    background-size : 100%;
+    background-repeat : no-repeat;
+    background-position : center;
+    min-height : 30vw;
+    }
+  
+    #photo_1
+    {
+      background-image : url("images/desktop/image-gallery-milkbottles.jpg");
+    }
+  
+    #photo_2
+    {
+      background-image : url("images/desktop/image-gallery-orange.jpg");
+    }
+  
+    #photo_3
+    {
+      background-image : url("images/desktop/image-gallery-cone.jpg");
+    }
+  
+    #photo_4
+    {
+      background-image : url("images/desktop/image-gallery-sugarcubes.jpg");
+    }
+    .pied
+    {
+      display : flex;
+      flex-direction : column;
+      background-color : #90d4c5;
+      text-align : center;
+      color : #2c7564;
+    }
+  
+    .pied div span
+    {
+      margin : 2em;
+    }
+  
+    .logo_down
+    {
+      margin : 3em;
+    }
+  
+    .logo_pied
+    {
+      margin : 5em 0.5em 5em 0.5em;
+    }
