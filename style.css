@@ -257,3 +257,126 @@ html, body {
     {
       margin : 5em 0.5em 5em 0.5em;
     }
+
+    @media screen and (max-width: 720px)
+{
+    .entete
+  {
+    background-color : #3dbeff;
+    width : 100%;
+    background-image : url("images/mobile/image-header.jpg")
+  }
+
+  .menu
+  {
+    display : none;
+  }
+
+  .photo
+ {
+  flex : 1;
+  background-size : 100%;
+  background-repeat : no-repeat;
+  background-position : center;
+  min-height : 85vw;
+ }
+  #coupe{
+    background-image : url("images/mobile/image-stand-out.jpg")
+  }
+
+  #oeuf{
+    background-image : url("images/mobile/image-transform.jpg");
+  }
+
+.deux_element
+{
+  display : flex;
+  flex-direction : column;
+}
+  
+.texte
+{
+  display : flex;
+  flex-direction : column;
+  text-align :center;
+  flex : 1;
+}
+  .details
+{
+  padding-left : 20px;
+  padding-right : 20px;
+}
+
+.details_paragraphe
+{
+  padding-left : 20px;
+  padding-right : 20px;
+  color : #89888f;
+}
+
+#premier
+  {
+    flex-direction : column-reverse;
+  }
+
+#pomme
+{
+  background-image : url("images/mobile/image-graphic-design.jpg");
+  color : #1d4f46;
+}
+
+#orange
+{
+  background-image : url("images/mobile/image-photography.jpg");
+  color : #154f65;
+}
+.head_team
+  {
+    display : flex;
+    flex-direction : column;
+  }
+
+  .personne
+  {
+    width : 90%;
+  }
+
+  #photo_1
+  {
+    background-image : url("images/mobile/image-gallery-milkbottles.jpg");
+  }
+
+  #photo_2
+  {
+    background-image : url("images/mobile/image-gallery-orange.jpg");
+  }
+#photo_3
+  {
+    background-image : url("images/mobile/image-gallery-cone.jpg");
+  }
+
+#photo_4
+  {
+    background-image : url("images/mobile/image-gallery-sugar-cubes.jpg");
+  }
+    
+.photo_album
+  {
+  background-size : 100%;
+  background-repeat : no-repeat;
+  background-position : center;
+  min-height : 50vw;
+  min-width : 50vw;
+  }
+
+.album
+  {
+    display : flex;
+    flex-wrap : wrap;
+  }
+    
+ul::before
+    {
+      content : url("images/icon-hamburger.svg");
+    }
+}
